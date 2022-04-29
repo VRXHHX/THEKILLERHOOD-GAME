@@ -173,7 +173,25 @@ local args = {
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)  
+Section:NewButton("Dupe Money (banana)", "Need 2t money", function()
 
+local args = {
+
+        [1] = "The banana"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+
+        local args = {
+
+        [1] = "The banana"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+end)  
     
 
         
