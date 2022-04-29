@@ -78,11 +78,11 @@ local args = {
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)
-Section:NewButton("Dupe Money", "Need 200k money", function()
+Section:NewButton("Dupe Money", "Need 100k money", function()
 
 local args = {
 
-        [1] = "Big Cat"
+        [1] = "Tusla"
 
     }
 
@@ -90,7 +90,7 @@ local args = {
 
         local args = {
 
-        [1] = "Big Cat"
+        [1] = "Tusla"
 
     }
 
