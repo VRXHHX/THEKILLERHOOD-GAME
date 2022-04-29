@@ -192,8 +192,8 @@ local args = {
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)  
- local Tab = Window:NewTab("NFTs") 
- local Section = Tab:NewSection("Buy NFTs with game money")
+local Tab = Window:NewTab("NFTs") 
+local Section = Tab:NewSection("Buy NFTs with game money")
 Section:NewButton("Buy Ben", "Buy Ben", function()
 
 local args = {
