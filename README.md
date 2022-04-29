@@ -294,9 +294,8 @@ Section:NewButton("Buy Ms Floopa", "Buy Ms Floopa", function()
 
 end)
 
-Section:NewButton("Buy Little box", "Buy Little box", function()
 
-    }
+  
 
    
 
