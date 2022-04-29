@@ -230,9 +230,19 @@ Section:NewButton("Buy Mommeh Long Legs", "Buy Mommeh Long Legs", function()
 end)
 local Tab = Window:NewTab("Updates")
 local Section = Tab:NewSection("V0.0.1")
+local Tab = Window:NewTab("Anti Reap")
+local Section = Tab:NewSection("Need 30 watermelon")        
+Section:NewButton("Equip WaterMelon", "U need be fast", function()
 
-        
+    local args = {
 
+        [1] = "Watermelon"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+end)
         
 
     
