@@ -245,7 +245,6 @@ Section:NewButton("Equip WaterMelon", "U need be fast", function()
 end)
 
 local Section = Tab:NewSection("Buy New Items")      
-local Section = Tab:NewSection("Buy New Items")
 Section:NewButton("Buy Bingus", "Buy Bingus", function()
 
     local args = {
