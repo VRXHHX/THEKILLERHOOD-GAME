@@ -90,7 +90,26 @@ local args = {
 
         local args = {
 
-        [1] = "Tusla"
+        [1] = "Tulsa"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+end)
+Section:NewButton("Dupe Money", "need 2m money", function()
+
+local args = {
+
+        [1] = "Rainbow Tulsa"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+
+        local args = {
+
+        [1] = "Rainbow Tulsa"
 
     }
 
