@@ -124,7 +124,7 @@ local args = {
 
     }
 
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
         local args = {
 
@@ -132,7 +132,7 @@ local args = {
 
     }
 
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
 
 end)
 
