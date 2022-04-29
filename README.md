@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Made By 2ndalt", "Sentinel")
-local Tab = Window:NewTab("InfMoney")
+local Tab = Window:NewTab("Scripts")
 local Section = Tab:NewSection("Get Infinite Money")
 Section:NewButton("Dupe Money", "Buy item dupe cash", function()
 
@@ -192,29 +192,34 @@ local args = {
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)  
-local Tab = Window:NewTab("NFTs") 
-local Section = Tab:NewSection("Buy NFTs with game money")
+local Section = Tab:NewSection("Buy NFTs With game money")
 Section:NewButton("Buy Ben", "Buy Ben", function()
 
-local args = {
+    local args = {
 
         [1] = "Trading Ben"
 
     }
 
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)
-    Section:NewButton("Buy Munneh", "Buy Munneh", function()
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
-local args = {
+end)
+
+Section:NewButton("Buy Munneh", "Buy Munneh", function()
+
+    local args = {
 
         [1] = "Munneh"
 
     }
 
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+end)
+
 Section:NewButton("Buy Mommeh Long Legs", "Buy Mommeh Long Legs", function()
 
-local args = {
+    local args = {
 
         [1] = "Mommeh Long Legs"
 
@@ -222,10 +227,8 @@ local args = {
 
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
+end)
 
-      
-
-    
 
 
         
