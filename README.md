@@ -243,11 +243,62 @@ Section:NewButton("Equip WaterMelon", "U need be fast", function()
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)
-        
+local Section = Tab:NewSection("Buy New Items")      
+Section:NewButton("Buy Bingus", "Buy Bingus", function()
 
-    
+    local args = {
 
-    
+        [1] = "Bingus"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+end)
+Section:NewButton("Buy Baby Floopa", "Buy Baby Floopa", function()
+
+    local args = {
+
+        [1] = "Baby Floopa"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+end)
+ Section:NewButton("Buy Floopa", "Buy Floopa", function()
+
+    local args = {
+
+        [1] = "Floppa"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+end)  
+Section:NewButton("Buy Ms Floopa", "Buy Ms Floopa", function()
+
+    local args = {
+
+        [1] = "Ms Floopa"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+end)
+Section:NewButton("Buy Little box", "Buy Little box", function()
+
+    local args = {
+
+        [1] = "Little box"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+end)
 
 
 
