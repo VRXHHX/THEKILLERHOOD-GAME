@@ -228,8 +228,8 @@ Section:NewButton("Buy Mommeh Long Legs", "Buy Mommeh Long Legs", function()
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)
-
-
+local Tab = Window:NewTab("Updates")
+local Section = Tab:NewSection("V0.0.1")
 
         
 
