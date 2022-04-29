@@ -82,7 +82,7 @@ Section:NewButton("Dupe Money", "Need 100k money", function()
 
 local args = {
 
-        [1] = "Tusla"
+        [1] = "Pop It Black!"
 
     }
 
@@ -90,7 +90,7 @@ local args = {
 
         local args = {
 
-        [1] = "Tulsa"
+        [1] = "Pop It Black!"
 
     }
 
