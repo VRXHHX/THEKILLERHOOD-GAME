@@ -192,7 +192,41 @@ local args = {
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)  
+ local Tab = Window:NewTab("NFTs") 
+ local Section = Tab:NewSection("Buy NFTs with game money")
+Section:NewButton("Buy Ben", "Buy Ben", function()
+
+local args = {
+
+        [1] = "Trading Ben"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args)
+    Section:NewButton("Buy Munneh", "Buy Munneh", function()
+
+local args = {
+
+        [1] = "Munneh"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+Section:NewButton("Buy Mommeh Long Legs", "Buy Mommeh Long Legs", function()
+
+local args = {
+
+        [1] = "Mommeh Long Legs"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+
+      
+
     
+
 
         
 
