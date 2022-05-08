@@ -192,7 +192,7 @@ local args = {
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)  
-Section:NewToggle("Auto Dupe Banana", "Dupe Banana", function(state)
+Section:NewButton("Auto Dupe Banana", "Dupe Banana", function(state)
 
     if state then
 
