@@ -173,7 +173,7 @@ local args = {
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)  
-Section:NewButton("Dupe Money (banana)", "Need 2t money", function()
+Section:NewToogle("Dupe Money (banana)", "Need 2t money", function()
 
 local args = {
 
