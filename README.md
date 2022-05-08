@@ -192,6 +192,47 @@ local args = {
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)  
+Section:NewToggle("Auto Dupe Banana", "Dupe Banana", function(state)
+
+    if state then
+
+_G.on = true
+
+while _G.on == true do
+
+    wait()
+
+wait(0.2)
+
+local args = {
+
+        [1] = "The banana"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
+
+        local args = {
+
+        [1] = "The banana"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+wait(0.2)
+
+    end
+
+    else
+
+_G.on = false
+
+        
+
+    end
+
+end)
 local Section = Tab:NewSection("Buy NFTs With game money")
 Section:NewButton("Buy Ben", "Buy Ben", function()
 
