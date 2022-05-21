@@ -192,47 +192,44 @@ local args = {
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)  
-Section:NewButton("Auto Dupe Banana", "Dupe Banana", function(state)
 
-    if state then
 
-_G.on = true
 
-while _G.on == true do
 
-    wait()
 
-wait(0.2)
 
-local args = {
+  
 
-        [1] = "The banana"
 
-    }
 
-    game:GetService("ReplicatedStorage").RemoteEvents.Sell:FireServer(unpack(args))
 
-        local args = {
-
-        [1] = "The banana"
-
-    }
-
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-
-wait(0.2)
-
-    end
-
-    else
-
-_G.on = false
 
         
 
-    end
+    
 
-end)
+  
+
+        
+
+       
+
+    
+
+
+
+
+   
+
+ 
+
+
+
+        
+
+   
+
+
 local Section = Tab:NewSection("Buy NFTs With game money")
 Section:NewButton("Buy Ben", "Buy Ben", function()
 
@@ -269,6 +266,7 @@ Section:NewButton("Buy Mommeh Long Legs", "Buy Mommeh Long Legs", function()
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)
+Section:NewButton("Buy Mommeh Long Legs", "Buy Mommeh Long Legs", function()
 local Tab = Window:NewTab("Updates")
 local Section = Tab:NewSection("V0.0.1")
 local Tab = Window:NewTab("Anti Reap")
