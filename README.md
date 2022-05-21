@@ -231,7 +231,7 @@ end)
 
 
 local Section = Tab:NewSection("Buy NFTs With game money")
-Section:NewButton("Buy Ben", "Buy Ben", function()
+Section:NewButton(" Ben", "Buy Ben", function()
 
     local args = {
 
@@ -266,6 +266,19 @@ Section:NewButton("Buy Mommeh Long Legs", "Buy Mommeh Long Legs", function()
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 
 end)
+Section:NewButton("Buy Mask", "Buy Mask", function()
+
+    local args = {
+
+        [1] = "Mask"
+
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+
+end)
+
+
 Section:NewButton("Buy Mommeh Long Legs", "Buy Mommeh Long Legs", function()
 local Tab = Window:NewTab("Updates")
 local Section = Tab:NewSection("V0.0.1")
